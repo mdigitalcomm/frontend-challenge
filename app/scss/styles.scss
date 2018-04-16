@@ -1,0 +1,112 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Nav bar*/
+nav .nav-wrapper {
+	padding: 0 20px;
+}
+
+
+/* Banner */
+
+.background-img {
+	width: 100%;
+}
+
+#banner-text {
+	position: relative;
+	margin: -120px auto 0;
+	background: linear-gradient( rgba(255, 255, 255, 0.9) 0%, white 25%);
+	width: 100%;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+	padding: 1em;
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 60px;
+	color: #558b2f;
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* Events list style */
+#mixs-activities {
+	margin: 0 10%;
+}
+
+#pop-events {
+	font-size: 2.5em;
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.card .card-content .event-name {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.card .card-action .learn-more {
+	color: red;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.card:hover {
+	box-shadow: 0 10px 30px 0 rgba(0,0,0,.25);
+}
+
+.page-footer {
+	padding-bottom: 20px;
+}
+
+
+/** Event detail page style **/
+#event-title {
+	font-size: 2.5em;
+}
+#event-detail, #map {
+	margin: 2% 10%;
+}
+
+#event-detail .ltd {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#map {
+	height: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+	#mixs-activities {
+		margin: 0 2%;
+	}
+
+	#banner-text {
+		margin-top: -20px;
+		padding: 20px;
+		font-size: 40px;
+
+	}
+
+	#event-detail, #map {
+		margin: 2% 4%;
+	}
+
+	/** TO-DO: customize banner for small screens **/
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+	#mixs-activities {
+		margin: 0 15%;
+	}
+
+	#event-detail, #map {
+		margin: 2% 15%;
+	}	
+
+}

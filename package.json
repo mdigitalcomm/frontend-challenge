@@ -1,0 +1,18 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ml <mdigitalcomm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "gulp-sass": "^4.0.1"
+  }
+}
